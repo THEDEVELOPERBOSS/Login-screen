@@ -10,23 +10,24 @@ int main() {
 	int passwd2 = 0; 
 	// this will ask the user for their username and password
 	
-	std::cout << "Enter you username";
+	std::cout << "Enter you username\n";
 	std::cin >> username;
 	//this will ask for the first users username and password
 	
 	if (username == user1) {
 		
-		std::cout << "Now enter your password"; 
-		std::cin >> passwd; 
+		std::cout << "Now enter your password\n"; 
+		std::cin >> passwd;
 		
-		else {
-			std::cout << "Get out you hacker";
-			}
-		
-		if (passwd == passwd1){
-			std::cout << "Access Granted";
-			}
 	}
+		else if (passwd == passwd1){
+			std::cout << "Access Granted\n";
+			}
+		else {
+			std::cout << "Get out you hacker\n";
+			}
+		
+
 
 		
 }
